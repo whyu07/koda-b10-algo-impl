@@ -1,0 +1,11 @@
+DECLARE p : INTEGER
+DECLARE l : INTEGER
+DECLARE luas : REAL
+DECLARE keliling : REAL
+
+INPUT p 
+INPUT l
+luas <-- p * l
+keliling <-- p + l + p + l
+OUTPUT luas
+OUTPUT keliling 
