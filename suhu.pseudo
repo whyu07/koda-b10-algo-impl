@@ -4,7 +4,7 @@ DECLARE Fahrenheit : REAL
 DECLARE Reamour : REAL
 
 INPUT Celcius
-IF Celcius <= 0 THEN
+IF Celcius = "" THEN
     OUTPUT "Harus berupa angka atau bilangan positif"
 ELSE 
 Kelvin <-- Celcius + 273.15
